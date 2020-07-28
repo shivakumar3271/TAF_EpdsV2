@@ -1,0 +1,26 @@
+{
+	"header": {
+		"transactionTypes": [
+			"ORG_TERM_PROFILE"
+		],
+		"legacyID": "27089343",
+		"legacySystemID": "234",
+		"legacySystemName": "EPDSv2",
+		"spsIDs": [
+			null
+		]
+	},
+	"profile": {
+		"providerType": "ORGANIZATION",
+		"providerActive": {
+			"effectiveDate": "01/01/2011",
+			"terminationDate": "03/27/2020",
+			"terminationReasonCode": "CMS Preclusion"
+		},
+		"nameQualifier": {
+			"orgNameQualifier": {
+				"orgName": "LIPSON DENTAL GROUP"
+			}
+		}
+	}
+}

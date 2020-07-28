@@ -1,0 +1,802 @@
+{
+	"header": {
+		"transactionTypes": [
+			"IND_ADD_ADDR_AFF_NTWK_REIMB",
+			"ORG_EDIT_TERM_CLAIM_ACTION_SANCTION"
+		],
+		"legacyID": "26968060",
+		"legacySystemID": "234",
+		"legacySystemName": "EPDSv2",
+		"spsIDs": [
+			"1000150655",
+			"212"
+		]
+	},
+	"profile": {
+		"providerType": "INDIVIDUAL",
+		"providerActive": {
+			"effectiveDate": "01/03/2019",
+			"terminationDate": "12/31/9999"
+		},
+		"nameQualifier": {
+			"groupingNameQualifier": {
+				"groupingType": "typeOfGrping",
+				"groupingName": "grpName",
+				"groupingSiteCode": "grpSiteCode"
+			},
+			"individualNameQualifier": {
+				"profileName": {
+					"firstName": "Susan",
+					"middleName": "M",
+					"lastName": "Goldberg",
+					"suffix": "",
+					"professionalTitleCodes": [
+						"MD"
+					],
+					"dateOfBirth": "02/07/1977",
+					"gender": "Female",
+					"ethnicity": [
+						"Declined to State"
+					]
+				},
+				"aliasNames": [
+					{
+						"firstName": "P10",
+						"middleName": "P12",
+						"lastName": "P11",
+						"suffix": "G7"
+					},
+					{
+						"firstName": "Jeffrey",
+						"middleName": "Douglas",
+						"lastName": "Hodde",
+						"suffix": "Sr"
+					}
+				]
+			},
+			"orgNameQualifier": {
+				"orgName": "DummyOrg"
+			}
+		},
+		"taxIDs": [
+			{
+				"taxIDValue": "EIN10001",
+				"taxIDIndicator": "EIN",
+				"taxIDActive": {
+					"effectiveDate": "01-03-2019",
+					"terminationDate": "01-08-2019",
+					"terminationReasonCode": "User Termination"
+				}
+			},
+			{
+				"taxIDValue": "EIN10001",
+				"taxIDIndicator": "EIN",
+				"taxIDActive": {
+					"effectiveDate": "01-04-2019",
+					"terminationDate": "12-31-9999"
+				}
+			}
+		],
+		"areasOFocus": [
+			{
+				"areaOfFocus": "Family Services",
+				"areaOfFocusActive": {
+					"effectiveDate": "01/03/2019",
+					"terminationDate": "01/08/2019",
+					"terminationReasonCode": "User Termination"
+				}
+			},
+			{
+				"areaOfFocus": "Anger Management",
+				"areaOfFocusActive": {
+					"effectiveDate": "01/03/2019",
+					"terminationDate": "12/31/9999"
+				}
+			}
+		],
+		"providerLanguages": [
+			"English",
+			"French"
+		]
+	},
+	"profileAdditionalDetails": {
+		"pdmIndicatorDetails": [
+			{
+				"pdmIndicator": "pdmIndTextValue",
+				"pdmIndicatorActive": {
+					"effectiveDate": "01-03-2019",
+					"terminationDate": "01-08-2019",
+					"terminationReasonCode": "User Termination"
+				}
+			},
+			{
+				"pdmIndicator": "pdmIndTextValue2",
+				"pdmIndicatorActive": {
+					"effectiveDate": "01-03-2019",
+					"terminationDate": "12-31-9999"
+				}
+			}
+		],
+		"credentialingDetails": [
+			{
+				"credentialingSource": "credSource",
+				"credentialingStatus": "credStatus",
+				"credentialingActive": {
+					"effectiveDate": "01-03-2019",
+					"terminationDate": "01-08-2019",
+					"terminationReasonCode": "User Termination"
+				}
+			},
+			{
+				"credentialingSource": "credSource",
+				"credentialingStatus": "credStatus",
+				"credentialingActive": {
+					"effectiveDate": "01-03-2019",
+					"terminationDate": "12-31-9999"
+				}
+			}
+		],
+		"providerDistinctionDetails": [
+			{
+				"providerDistinctionCode": "providerCode",
+				"providerDistinctionDetailsActive": {
+					"effectiveDate": "01-03-2019",
+					"terminationDate": "01-08-2019",
+					"terminationReasonCode": "User Termination"
+				}
+			},
+			{
+				"providerDistinctionCode": "providerCode",
+				"providerDistinctionDetailsActive": {
+					"effectiveDate": "01-03-2019",
+					"terminationDate": "12-31-9999"
+				}
+			}
+		],
+		"ebpPrograms": [
+			{
+				"ebpProgramID": "EBPPROGID123",
+				"ebpContractStateCode": "StateCode",
+				"ebpProgramsActive": {
+					"effectiveDate": "01-03-2019",
+					"terminationDate": "01-08-2019",
+					"terminationReasonCode": "User Termination"
+				}
+			},
+			{
+				"ebpProgramID": "EBPPROGID123",
+				"ebpContractStateCode": "StateCode",
+				"ebpProgramsActive": {
+					"effectiveDate": "01-03-2019",
+					"terminationDate": "12-31-9999"
+				}
+			}
+		],
+		"bundledPaymentProcesses": [
+			{
+				"bundledPaymentProcessMode": "ProcessMode",
+				"bundledPaymentProcessActive": {
+					"effectiveDate": "01-03-2019",
+					"terminationDate": "01-08-2019",
+					"terminationReasonCode": "User Termination"
+				}
+			},
+			{
+				"bundledPaymentProcessMode": "ProcessMode",
+				"bundledPaymentProcessActive": {
+					"effectiveDate": "01-03-2019",
+					"terminationDate": "12-31-9999"
+				}
+			}
+		]
+	},
+	"alternateIDs": {
+		"npiDetails": [
+			{
+				"npiEligibilityType": "Eligible",
+				"npiType": "NPI-Type 1",
+				"npiValue": "1497787139",
+				"npiActive": {
+					"effectiveDate": "01/01/2006",
+					"terminationDate": "12/31/9999"
+				}
+			},
+			{
+				"npiEligibilityType": "eligibType",
+				"npiType": "type1",
+				"npiValue": "value1",
+				"npiActive": {
+					"effectiveDate": "01-03-2019",
+					"terminationDate": "12-31-9999"
+				}
+			}
+		],
+		"altIdDetails": [
+			{
+				"altIDSource": "QCARE",
+				"altIDType": "Legacy ID",
+				"altIDValue": "52202650 002",
+				"alternateIDActive": {
+					"effectiveDate": "03/03/2006",
+					"terminationDate": "08/31/2010",
+					"terminationReasonCode": "Provider no longer at the location"
+				}
+			},
+			{
+				"altIDSource": "eligibType",
+				"altIDType": "type1",
+				"altIDValue": "value1",
+				"alternateIDActive": {
+					"effectiveDate": "01-03-2019",
+					"terminationDate": "12-31-9999"
+				}
+			}
+		]
+	},
+	"specialties": [
+		{
+			"billingform": "bform",
+			"primarySpecialtyIndicator": true,
+			"specialtyCode": "Pediatrics",
+			"boardCertificationAgencyName": "ABMS Pediatrics",
+			"boardCertificationLifetimeCertificationIndicator": "",
+			"boardCertificationRecertificationDate": "01/01/2014",
+			"boardCertificationDate": "10/24/2006",
+			"boardCertificationExpirationDate": "12/31/9999",
+			"addresses": [
+				{
+					"addressDetails": {
+						"primaryPracticeIndicator": true,
+						"addressType": "practiceAddress",
+						"addressLine1addressLine1": "234 Peachtree Rd NW",
+						"addressLine2": "Suite # 600",
+						"addressLine3": "Floor 3",
+						"county": "Fulton",
+						"city": "Atlanta",
+						"state": "GA",
+						"zip": "30308",
+						"cityVanityName": "ATL"
+					},
+					"addressActive": {
+						"effectiveDate": "01-03-2019",
+						"terminationDate": "12-31-9999"
+					}
+				}
+			],
+			"networkAffiliations": [
+				{
+					"networkContractedState": "OH",
+					"networkSourceSystem": "Network1",
+					"networkID": "234234",
+					"directoryIndicator": "network Ind",
+					"networkActive": {
+						"effectiveDate": "01-03-2019",
+						"terminationDate": "12-31-9999"
+					},
+					"patientPreferences": {
+						"ageFrom": "12",
+						"ageTo": "23",
+						"patientGenderPreference": "NA",
+						"memberCapacityCount": "234",
+						"hospitalBasedNONPARInds": [
+							"23234",
+							"3445"
+						]
+					}
+				}
+			],
+			"specialtyActive": {
+				"effectiveDate": "01/01/1900",
+				"terminationDate": "12/31/9999"
+			}
+		}
+	],
+	"educationDetails": [
+		{
+			"educationTypeCode": "eduTypeCode",
+			"schoolName": "School 1",
+			"degree": "Degree 1",
+			"schoolGraduationYear": "2019",
+			"startDate": "01/03/2016",
+			"endDate": "01/03/2019"
+		},
+		{
+			"educationTypeCode": "eduTypeCode",
+			"schoolName": "School 2",
+			"degree": "Degree 2",
+			"schoolGraduationYear": "2016",
+			"startDate": "01/03/2013",
+			"endDate": "01/03/2016"
+		}
+	],
+	"addresses": [
+		{
+			"addressDetails": {
+				"primaryPracticeIndicator": true,
+				"addressType": "Practice",
+				"addressLine1": "1350 WALTON WAY",
+				"addressLine2": "Suite # 600",
+				"addressLine3": "Floor 3",
+				"county": "Richmond",
+				"city": "Augusta",
+				"state": "GA",
+				"zip": "30901",
+				"cityVanityName": "ATL"
+			},
+			"addressActive": {
+				"effectiveDate": "01/01/2013",
+				"terminationDate": "12/31/9999"
+			},
+			"addressAdditionalDetails": {
+				"contactDetails": [
+					{
+						"firstName": "FName",
+						"middleName": "MName",
+						"lastName": "LName",
+						"suffix": "Mr.",
+						"professionalTitleCodes": [
+							"Jr.",
+							"Sr."
+						],
+						"fax": "233546577",
+						"phone": "2345677654",
+						"email": "sdfsdf@gmail.com",
+						"webAddress": "http://url.com"
+					},
+					{
+						"firstName": "testName",
+						"lastName": "testLastName",
+						"suffix": "Mrs.",
+						"fax": "233546577",
+						"phone": "2345677654",
+						"email": "sdfsdf@gmail.com",
+						"webAddress": "http://url.com"
+					}
+				],
+				"areasOFocus": [
+					{
+						"areaOfFocus": "Family Services",
+						"areaOfFocusActive": {
+							"effectiveDate": "01/03/2019",
+							"terminationDate": "01/08/2019",
+							"terminationReasonCode": "User Termination"
+						}
+					},
+					{
+						"areaOfFocus": "Anger Management",
+						"areaOfFocusActive": {
+							"effectiveDate": "01/03/2019",
+							"terminationDate": "12/31/9999"
+						}
+					}
+				],
+				"officeDetails": [
+					{
+						"accessibilityCode": [
+							"acCode"
+						],
+						"staffLanguage": [
+							"english"
+						],
+						"acceptingPatients": "Accepting Patients",
+						"officeTechnology": [
+							"Java"
+						],
+						"officeRestriction": [
+							"No smoking"
+						],
+						"officeSystemName": [
+							"officeSystem"
+						],
+						"officeServiceCertificationCode": [
+							"JHEI"
+						]
+					},
+					{
+						"accessibilityCode": [
+							"bcCode"
+						],
+						"staffLanguage": [
+							"english"
+						],
+						"acceptingPatients": "Accepting children only",
+						"officeTechnology": [
+							"C++"
+						],
+						"officeRestriction": [
+							"Time Limit"
+						],
+						"officeSystemName": [
+							"officeSystem"
+						],
+						"officeServiceCertificationCode": [
+							"YRYE"
+						]
+					}
+				],
+				"officeServiceTypes": [
+					"ADD and ADHD",
+					"Adult Family Care Home"
+				],
+				"schedulingDetails": [
+					{
+						"days": "Wednesday",
+						"openTime": "23",
+						"closeTime": "24"
+					},
+					{
+						"days": "Friday",
+						"openTime": "05",
+						"closeTime": "24"
+					}
+				],
+				"specialPrograms": [
+					{
+						"providerSpecialProgramType": "PRTYPE",
+						"programActive": {
+							"effectiveDate": "01-03-2019",
+							"terminationDate": "01-08-2019",
+							"terminationReasonCode": "User Termination"
+						}
+					},
+					{
+						"providerSpecialProgramType": "PRTYPE",
+						"programActive": {
+							"effectiveDate": "01-03-2019",
+							"terminationDate": "12-31-9999"
+						}
+					}
+				],
+				"remittanceDetails": [
+					{
+						"checkName": "CheckingName",
+						"remittanceNPI": {
+							"npiEligibilityType": "eligibType",
+							"npiType": "npiType",
+							"npiValue": "npiValue"
+						},
+						"remittanceActive": {
+							"effectiveDate": "01-03-2019",
+							"terminationDate": "01-08-2019",
+							"terminationReasonCode": "User Termination"
+						}
+					},
+					{
+						"checkName": "New Name",
+						"remittanceNPI": {
+							"npiEligibilityType": "eligibType",
+							"npiType": "npiType",
+							"npiValue": "npiValue"
+						},
+						"remittanceActive": {
+							"effectiveDate": "01-03-2019",
+							"terminationDate": "12-31-9999"
+						}
+					}
+				]
+			}
+		}
+	],
+	"affiliations": [
+		{
+			"affiliatedLegacyID": "LID1234",
+			"affiliationType": "afType",
+			"groupingCode": "GCode",
+			"groupingType": "GType",
+			"pcpID": "PCPID",
+			"affiliationActive": {
+				"effectiveDate": "01-03-2019",
+				"terminationDate": "12-31-9999"
+			},
+			"npiDetails": [
+				{
+					"npiEligibilityType": "N16",
+					"npiType": "N17",
+					"npiValue": "N13"
+				},
+				{
+					"npiEligibilityType": "O3435",
+					"npiType": "npType",
+					"npiValue": "npValue"
+				}
+			],
+			"affliatedTaxIDs": [
+				{
+					"taxIDValue": "TIN2324",
+					"taxIDIndicator": "taxIDInd",
+					"taxIDActive": {
+						"effectiveDate": "01-03-2019",
+						"terminationDate": "01-08-2019",
+						"terminationReasonCode": "User Termination"
+					}
+				},
+				{
+					"taxIDValue": "TIN2324",
+					"taxIDIndicator": "taxIDInd",
+					"taxIDActive": {
+						"effectiveDate": "01-03-2019",
+						"terminationDate": "12-31-9999"
+					}
+				}
+			],
+			"addresses": [
+				{
+					"addressDetails": {
+						"primaryPracticeIndicator": true,
+						"addressType": "practiceAddress",
+						"addressLine1": "234 Peachtree Rd NW",
+						"addressLine2": "Suite # 600",
+						"addressLine3": "Floor 3",
+						"county": "Fulton",
+						"city": "Atlanta",
+						"state": "GA",
+						"zip": "30308",
+						"cityVanityName": "ATL"
+					},
+					"addressActive": {
+						"effectiveDate": "01-03-2019",
+						"terminationDate": "12-31-9999"
+					},
+					"addressAdditionalDetails": {
+						"contactDetails": [
+							{
+								"firstName": "FName",
+								"middleName": "MName",
+								"lastName": "LName",
+								"suffix": "Mr.",
+								"professionalTitleCodes": [
+									"Jr.",
+									"Sr."
+								],
+								"fax": "233546577",
+								"phone": "2345677654",
+								"email": "sdfsdf@gmail.com",
+								"webAddress": "http://url.com"
+							},
+							{
+								"firstName": "testName",
+								"lastName": "testLastName",
+								"suffix": "Mrs.",
+								"fax": "233546577",
+								"phone": "2345677654",
+								"email": "sdfsdf@gmail.com",
+								"webAddress": "http://url.com"
+							}
+						],
+						"areasOFocus": [
+							{
+								"areaOfFocus": "Anger Management",
+								"areaOfFocusActive": {
+									"effectiveDate": "01/03/2019",
+									"terminationDate": "01/08/2019",
+									"terminationReasonCode": "User Termination"
+								}
+							},
+							{
+								"areaOfFocus": "Addiction Disorders-Non-Drug related",
+								"areaOfFocusActive": {
+									"effectiveDate": "01/03/2019",
+									"terminationDate": "12/31/9999"
+								}
+							}
+						],
+						"officeDetails": [
+							{
+								"accessibilityCode": [
+									"Evening Hours"
+								],
+								"staffLanguage": [
+									"english"
+								],
+								"acceptingPatients": "Accepting Patients",
+								"officeTechnology": [
+									"Java"
+								],
+								"officeRestriction": [
+									"No smoking"
+								],
+								"officeSystemName": [
+									"officeSystem"
+								],
+								"officeServiceCertificationCode": [
+									"JHEI"
+								]
+							},
+							{
+								"accessibilityCode": [
+									"bcCode"
+								],
+								"staffLanguage": [
+									"english"
+								],
+								"acceptingPatients": "Accepting children only",
+								"officeTechnology": [
+									"C++"
+								],
+								"officeRestriction": [
+									"Time Limit"
+								],
+								"officeSystemName": [
+									"officeSystem"
+								],
+								"officeServiceCertificationCode": [
+									"YRYE"
+								]
+							}
+						],
+						"schedulingDetails": [
+							{
+								"days": "Wednesday",
+								"openTime": "23",
+								"closeTime": "24"
+							},
+							{
+								"days": "Friday",
+								"openTime": "05",
+								"closeTime": "24"
+							}
+						],
+						"specialPrograms": [
+							{
+								"providerSpecialProgramType": "PRTYPE",
+								"programActive": {
+									"effectiveDate": "01-03-2019",
+									"terminationDate": "01-08-2019",
+									"terminationReasonCode": "User Termination"
+								}
+							},
+							{
+								"providerSpecialProgramType": "PRTYPE",
+								"programActive": {
+									"effectiveDate": "01-03-2019",
+									"terminationDate": "12-31-9999"
+								}
+							}
+						],
+						"remittanceDetails": [
+							{
+								"checkName": "CheckingName",
+								"remittanceNPI": {
+									"npiEligibilityType": "eligibType",
+									"npiType": "npiType",
+									"npiValue": "npiValue"
+								},
+								"remittanceActive": {
+									"effectiveDate": "01-03-2019",
+									"terminationDate": "01-08-2019",
+									"terminationReasonCode": "User Termination"
+								}
+							},
+							{
+								"checkName": "New Name",
+								"remittanceNPI": {
+									"npiEligibilityType": "eligibType",
+									"npiType": "npiType",
+									"npiValue": "npiValue"
+								},
+								"remittanceActive": {
+									"effectiveDate": "01-03-2019",
+									"terminationDate": "12-31-9999"
+								}
+							}
+						]
+					}
+				}
+			],
+			"networkAffiliations": [
+				{
+					"networkContractedState": "OH",
+					"networkSourceSystem": "Network1",
+					"networkID": "234234",
+					"directoryIndicator": "dirInd",
+					"networkActive": {
+						"effectiveDate": "01-03-2019",
+						"terminationDate": "01-08-2019",
+						"terminationReasonCode": "User Termination"
+					}
+				},
+				{
+					"networkContractedState": "OH",
+					"networkSourceSystem": "Network1",
+					"networkID": "234234",
+					"directoryIndicator": "network Ind",
+					"networkActive": {
+						"effectiveDate": "01-03-2019"
+					},
+					"patientPreferences": {
+						"ageFrom": "12",
+						"ageTo": "23",
+						"patientGenderPreference": "NA",
+						"memberCapacityCount": "234",
+						"hospitalBasedNONPARInds": [
+							"23234",
+							"3445"
+						]
+					},
+					"acceptingPatientsInds": [
+						{
+							"acceptingPatientsIndicator": "General patients only",
+							"acceptingPatientsIndicatorActive": {
+								"effectiveDate": "01-03-2019",
+								"terminationDate": "01-08-2019",
+								"terminationReasonCode": "User Termination"
+							}
+						},
+						{
+							"acceptingPatientsIndicator": "Specific patients only",
+							"acceptingPatientsIndicatorActive": {
+								"effectiveDate": "01-03-2019",
+								"terminationDate": "12-31-9999"
+							}
+						}
+					],
+					"timelyFilingInds": [
+						{
+							"timelyFiling": "Timely Filed",
+							"timelyFilingActive": {
+								"effectiveDate": "01-03-2019",
+								"terminationDate": "01-08-2019",
+								"terminationReasonCode": "User Termination"
+							}
+						},
+						{
+							"timelyFiling": "Not Timely Filed",
+							"timelyFilingActive": {
+								"effectiveDate": "01-03-2019",
+								"terminationDate": "12-31-9999"
+							}
+						}
+					]
+				}
+			],
+			"reimbursements": [
+				{
+					"networkID": "N123",
+					"reimbursementValue": "reimValue1",
+					"reimbursementActive": {
+						"effectiveDate": "01-03-2019",
+						"terminationDate": "01-08-2019",
+						"terminationReasonCode": "User Termination"
+					}
+				},
+				{
+					"networkID": "N123",
+					"reimbursementValue": "reimValue1",
+					"reimbursementActive": {
+						"effectiveDate": "01-03-2019",
+						"terminationDate": "12-31-9999"
+					}
+				}
+			]
+		}
+	],
+	"claimActionSanctions": [
+		{
+			"claimActionSanctionType": "sanctionType",
+			"claimActionSanctionValue": "sactionValue",
+			"claimActionSanctionCriteria": "sanctionCrit",
+			"lowRange": "234",
+			"highRange": "9800",
+			"claimActionSanctionActive": {
+				"effectiveDate": "01-03-2019",
+				"terminationDate": "01-08-2019",
+				"terminationReasonCode": "User Termination"
+			}
+		},
+		{
+			"claimActionSanctionType": "sanctionType2",
+			"claimActionSanctionValue": "sactionValue",
+			"claimActionSanctionCriteria": "sanctionCrit",
+			"lowRange": "456",
+			"highRange": "9800",
+			"claimActionSanctionActive": {
+				"effectiveDate": "01-03-2019",
+				"terminationDate": "12-31-9999"
+			}
+		}
+	],
+	"legacy": {
+		"contractIndicator": false,
+		"nwm": "what is this"
+	}
+}

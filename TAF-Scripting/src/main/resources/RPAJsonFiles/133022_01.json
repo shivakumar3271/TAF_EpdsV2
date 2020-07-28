@@ -1,0 +1,43 @@
+{
+	"header": {
+		"transactionTypes": [
+			"IND_ADD_TERM_NPI"
+		],
+		"legacyID": "26836509",
+		"legacySystemID": "234",
+		"legacySystemName": "EPDSv2",
+		"spsIDs": [
+			null
+		]
+	},
+	"profile": {
+		"providerType": "INDIVIDUAL",
+		"providerActive": {
+			"effectiveDate": "01/01/1901",
+			"terminationDate": "12/31/9999"
+		},
+		"nameQualifier": {
+			"individualNameQualifier": {
+				"profileName": {
+					"firstName": "Miguel",
+					"lastName": "George",
+					"dateOfBirth": "04/26/1970",
+					"gender": "Male"
+				}
+			}
+		}
+	},
+	"alternateIDs": {
+		"npiDetails": [
+			{
+				"npiEligibilityType": "Eligible",
+				"npiType": "NPI-Type 1",
+				"npiValue": "1770518573",
+				"npiActive": {
+					"effectiveDate": "11/01/2007",
+					"terminationDate": "12/31/9999"
+				}
+			}
+		]
+	}
+}

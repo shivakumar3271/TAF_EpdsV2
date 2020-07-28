@@ -1,0 +1,47 @@
+{
+	"header": {
+		"transactionTypes": [
+			"IND_ADD_TERM_NPI"
+		],
+		"legacyID": "26944441",
+		"legacySystemID": "234",
+		"legacySystemName": "EPDSv2",
+		"spsIDs": [
+			null
+		]
+	},
+	"profile": {
+		"providerType": "INDIVIDUAL",
+		"providerActive": {
+			"effectiveDate": "01/01/1901",
+			"terminationDate": "12/31/9999"
+		},
+		"nameQualifier": {
+			"individualNameQualifier": {
+				"profileName": {
+					"firstName": "Hansen",
+					"middleName": "An",
+					"lastName": "Chang",
+					"dateOfBirth": "05/24/1966",
+					"gender": "Male",
+					"ethnicity": [
+						"Declined to State"
+					]
+				}
+			}
+		}
+	},
+	"alternateIDs": {
+		"npiDetails": [
+			{
+				"npiEligibilityType": "Eligible",
+				"npiType": "NPI-Type 1",
+				"npiValue": "1689735599",
+				"npiActive": {
+					"effectiveDate": "01/01/1981",
+					"terminationDate": "12/31/9999"
+				}
+			}
+		]
+	}
+}

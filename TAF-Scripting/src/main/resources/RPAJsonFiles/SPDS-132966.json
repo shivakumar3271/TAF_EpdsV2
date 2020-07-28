@@ -1,0 +1,25 @@
+{
+	"header": {
+		"transactionTypes": [
+			"ORG_EDIT_NAME"
+		],
+		"legacyID": "33112011",
+		"legacySystemID": "234",
+		"legacySystemName": "EPDSv2",
+		"spsIDs": [
+			null
+		]
+	},
+	"profile": {
+		"providerType": "ORGANIZATION",
+		"providerActive": {
+			"effectiveDate": "01/01/1901",
+			"terminationDate": "12/31/9999"
+		},
+		"nameQualifier": {
+			"orgNameQualifier": {
+				"orgName": "UROLOGICAL HOSPITALS"
+			}
+		}
+	}
+}

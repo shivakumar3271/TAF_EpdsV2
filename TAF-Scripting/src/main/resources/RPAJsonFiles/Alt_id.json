@@ -1,0 +1,74 @@
+{
+  "header": {
+    "transactionTypes": [
+      "IND_PROFILE_ADD_ALT_ID"
+    ],
+    "legacyID": "26878710",
+    "legacySystemID": "234",
+    "legacySystemName": "EPDSv2",
+    "spsIDs": [
+      null
+    ]
+  },
+  "profile": {
+    "providerType": "INDIVIDUAL",
+    "providerActive": {
+      "effectiveDate": "01/01/1901",
+      "terminationDate": "12/31/9999"
+    },
+    "nameQualifier": {
+      "individualNameQualifier": {
+        "profileName": {
+          "firstName": "James",
+          "middleName": "R",
+          "lastName": "Harrington",
+          "dateOfBirth": "10/20/1969",
+          "gender": "Male",
+          "ethnicity": [
+            "Declined to State"
+          ]
+        }
+      }
+    }
+  },
+  "alternateIDs": {
+    "altIdDetails": [
+      {
+        "altIDSource": "GA",
+        "altIDType": "State License",
+        "altIDValue": "GA 00051810",
+        "alternateIDActive": {
+          "effectiveDate": "01/01/2008",
+          "terminationDate": "12/31/9999"
+        }
+      },
+      {
+        "altIDSource": "EPDSV2.0",
+        "altIDType": "8023**",
+        "altIDValue": "26878710",
+        "alternateIDActive": {
+          "effectiveDate": "01/01/1981",
+          "terminationDate": "12/31/9999"
+        }
+      },
+      {
+        "altIDSource": "GA",
+        "altIDType": "State License",
+        "altIDValue": "051810",
+        "alternateIDActive": {
+          "effectiveDate": "08/02/2002",
+          "terminationDate": "12/31/9999"
+        }
+      },
+      {
+        "altIDSource": "EPDSV2.0",
+        "altIDType": "Legacy Provider ID",
+        "altIDValue": "26878710",
+        "alternateIDActive": {
+          "effectiveDate": "03/26/2020",
+          "terminationDate": "12/31/9999"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+	"header": {
+		"transactionTypes": [
+			"ORG_ADD_CLAIM_ACTION_SANCTION"
+		],
+		"legacyID": "27069499",
+		"legacySystemID": "234",
+		"legacySystemName": "EPDSv2",
+		"spsIDs": [
+			null
+		]
+	},
+	"profile": {
+		"providerType": "ORGANIZATION",
+		"providerActive": {
+			"effectiveDate": "01/01/1901",
+			"terminationDate": "12/31/9999"
+		},
+		"nameQualifier": {
+			"orgNameQualifier": {
+				"orgName": "EMORY SAINT JOSEPHS HOSPITAL"
+			}
+		}
+	},
+	"claimActionSanctions": [
+		{
+			"claimActionSanctionType": "Pend",
+			"claimActionSanctionValue": "CAF",
+			"claimActionSanctionActive": {
+				"effectiveDate": "03/27/2020",
+				"terminationDate": "12/31/9999"
+			}
+		},
+		{
+			"claimActionSanctionType": "Stop",
+			"claimActionSanctionValue": "B Notice",
+			"claimActionSanctionActive": {
+				"effectiveDate": "01/01/1901",
+				"terminationDate": "12/31/9999"
+			}
+		},
+		{
+			"claimActionSanctionType": "Deny",
+			"claimActionSanctionValue": "Banned",
+			"claimActionSanctionActive": {
+				"effectiveDate": "02/02/2030",
+				"terminationDate": "12/31/9999"
+			}
+		}
+	]
+}

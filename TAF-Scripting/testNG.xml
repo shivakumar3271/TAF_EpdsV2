@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RPA_QA_Suite" parallel="tests" thread-count="1">
+
+	<test name="SkriptmateBefore">
+		<classes>
+			<class name="com.tests.epds.SkriptmateBeforeSuite" />
+		</classes>
+	</test>
+
+	<test name="RPA_EPDSV2UI_flow">
+		<classes>
+			<class name="com.tests.epds.RpaGrpTestsS192">
+				<methods>
+					<include name="sample" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="SkriptmateAfter">
+		<classes>
+			<class name="com.tests.epds.SkriptmateAfterSuite" />
+		</classes>
+	</test>
+	
+</suite>

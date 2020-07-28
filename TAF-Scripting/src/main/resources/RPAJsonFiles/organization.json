@@ -1,0 +1,39 @@
+{
+  "header": {
+    "transactionTypes": [
+      "ORG_EDIT_ADD_TERM_NPI_DETAILS"
+    ],
+    "legacyID": "27300533",
+    "legacySystemID": "234",
+    "legacySystemName": "EPDSv2",
+    "spsIDs": [
+      null
+    ]
+  },
+  "profile": {
+    "providerType": "ORGANIZATION",
+    "providerActive": {
+      "effectiveDate": "01/01/1901",
+      "terminationDate": "12/31/9999"
+    },
+    "nameQualifier": {
+      "orgNameQualifier": {
+        "orgName": "EMORY UNIV HEALTH SERVICE"
+      }
+    }
+  },
+  "alternateIDs": {
+    "npiDetails": [
+      {
+        "npiEligibilityType": "Ineligible",
+        "npiType": "NPI-Type 2",
+        "npiValue": "1538270335",
+        "npiActive": {
+          "effectiveDate": "01/01/2012",
+          "terminationDate": "12/31/2019",
+          "terminationReasonCode": "test"
+        }
+      }
+    ]
+  }
+}

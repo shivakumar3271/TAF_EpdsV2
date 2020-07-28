@@ -1,0 +1,26 @@
+{
+  "header": {
+    "transactionTypes": [
+      "ORG_TERM_PROFILE"
+    ],
+    "legacyID": "35622836",
+    "legacySystemID": "234",
+    "legacySystemName": "EPDSv2",
+    "spsIDs": [
+      null
+    ]
+  },
+  "profile": {
+    "providerType": "ORGANIZATION",
+    "providerActive": {
+      "effectiveDate": "01/01/1901",
+      "terminationDate": "03/23/2020",
+      "terminationReasonCode": "Merger/Consolidation"
+    },
+    "nameQualifier": {
+      "orgNameQualifier": {
+        "orgName": "ASPEN DENTAL"
+      }
+    }
+  }
+}

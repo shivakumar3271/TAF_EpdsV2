@@ -1,0 +1,56 @@
+{
+	"header": {
+		"transactionTypes": [
+			"ORG_EDIT_PRACTICE_ADDR_ADD_EDIT_CONTACT_INFO"
+		],
+		"legacyID": "27112448",
+		"legacySystemID": "234",
+		"legacySystemName": "EPDSv2",
+		"spsIDs": [
+			"324",
+			"212"
+		]
+	},
+	"profile": {
+		"providerType": "ORGANIZATION",
+		"providerActive": {
+			"effectiveDate": "01/01/1901",
+			"terminationDate": "12/31/9999"
+		},
+		"nameQualifier": {
+			"orgNameQualifier": {
+				"orgName": "BUDD TERRACE AT WESLEY WOODS"
+			}
+		}
+	},
+	"addresses": [
+		{
+			"addressDetails": {
+				"primaryPracticeIndicator": false,
+				"addressType": "Practice",
+				"addressLine1": "1833 Clifton Rd Ne",
+				"county": "DEKALB",
+				"city": "Atlanta",
+				"state": "GA",
+				"zip": "30329"
+			},
+			"addressActive": {
+				"effectiveDate": "01/01/2003",
+				"terminationDate": "12/31/9999"
+			},
+			"addressAdditionalDetails": {
+				"contactDetails": [
+					{
+						"phone": "(852) 031-4796"
+					},
+					{
+						"phone": "(852) 036-9741"
+					},
+					{
+						
+					}
+				]
+			}
+		}
+	]
+}
